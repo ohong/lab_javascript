@@ -29,8 +29,8 @@ var quiz = document.getElementById('quiz');
 
 
 // saves user selection into global array
-function recordChoice() {
-    selections[questionCounter] = document.querySelector('input[name="answer"]:checked').val();
+function getChoice() {
+    return document.querySelector('input[name="answer"]:checked').val;
 }
 
 // returns a random element from a given list
