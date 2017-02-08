@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- always put your name in your work -->
+    <meta name="author" content="Robert C. Duvall">
+    <!-- stop the web browser from ever caching this page or its images -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- support for this page -->
+    <link rel="stylesheet" type='text/css' href="css/color_divs.css">
+    <script src="js/color_divs.js" async></script>
+    <title>Colored DIVs</title>
+</head>
+
+<body>
+    <!-- input toolbar -->
+    <div id="toolbar" class="padded">
+        <input id="color_picker" type="color" value="#00009c" />
+        <input id="div_sizer" type="range" value="300" step="10" min="50" max="500" />
+        <input id="div_adder" type="button" value="Add Stripe" />
+        <input id="color_changer" type="button" value="Change Colors" />
+    </div>
+    <!-- results of input actions -->
+    <div id="content" class="padded">
+        <div class="stripe">
+            <!-- nothing here, just a color -->
+        </div>
+    </div>
+</body>
+</html>

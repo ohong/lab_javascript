@@ -1,0 +1,16 @@
+/*
+ * @author Robert C. Duvall
+ */
+.padded {
+    padding: 10px;
+}
+
+#toolbar {
+    border-bottom: 1px solid black;
+}
+
+.stripe {
+    width: 300px;
+    height: 15px;
+    background-color: #00009c;
+}
